@@ -1,0 +1,36 @@
+/*
+Theme Name: 72
+Description: Miaou miaou
+Author: MOI - WPserveur
+Template: graphene
+Version: 0.1.0
+*/
+
+body {
+
+    color:rgb(35, 91, 155);
+
+background-color: black;
+
+
+}
+
+.apprenants {
+
+
+padding-left: 100px;
+
+}
+
+
+img {
+
+max-width: 350px;
+max-height: 550px;
+position: relative;
+right:10px;
+
+}
+
+/*classe promo etc display wrap ? avec images */
+
