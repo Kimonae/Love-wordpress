@@ -14,7 +14,9 @@ while( $d = $query->fetch()){
 
     $res.= "<div class='apprenants'>";
     $res.= " ".$d['Prenom'] ." ". $d['Nom'] ."<br>";
-    $res.= '<a href="../wp-content/themes/72/fiche.php?id='.$d['id'] .'"> <button> Voir + </button> </a>'; //marche pas à refaire
+    $res.= '<a href="../wp-content/themes/72/fiche-du-stagiaire/?id='.$d['id'] .'"> <button> Voir + </button> </a>'; //marche pas à refaire
+
+
     
     $res.= "</div>";
 
