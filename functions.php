@@ -20,7 +20,13 @@ function accueil( $atts ){
  include ("accueil.php");
   return $res;
 }
-add_shortcode( 'ac', 'accueil' );
+add_shortcode( 'acc', 'accueil' );
+
+function slider( $atts ){
+  include ("slider.php");
+   return $res;
+ }
+ add_shortcode( 'slider', 'slider' );
 
 
 
@@ -42,5 +48,12 @@ function articles( $atts ){
    return $res;
  }
  add_shortcode( 'pre', 'presentation' );
-?>
 
+
+ function fiche( $atts ){
+  include ("fiche.php");
+   return $res;
+ }
+ add_shortcode( 'fiche', 'fiche' );
+
+?>
